@@ -1,0 +1,230 @@
+%-------------------------
+% Resume in Latex
+% Author : CHAN YH
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage[sfdefault]{roboto}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Chan Yi Heng} \\ \vspace{1pt}
+    \small {\faPhoneSquare} +65 8862 0913 $|$
+    \href{mailto:x@x.com}{{\faEnvelope} \underline{c@chanyh.com}} $|$ 
+    \href {https://chanyh.com}{{\faGlobeAsia} \underline{chanyh.com}} $|$
+    \href{https://github.com/cyh-chan}{{\faGithub} \underline{cyh-chan}} $|$
+    \href{https://www.linkedin.com/in/chanyiheng/}{{\faLinkedin} \underline{chanyiheng}} $|$
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Singapore University of Social Sciences}{Singapore, SG}
+      {Bachelor of Science (Honours) in Mathematics}{Jan 2022 -- Dec 2025}
+    \resumeSubheading
+      {Singapore Polytechnic}{Singapore, SG}
+      {Diploma in Banking \& Finance}{Apr 2016 -- Mar 2019}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Finance Assistant}{Sep 2021 -- Dec 2021}
+      {Indeed}{Singapore, SG}
+      \resumeItemListStart
+        \resumeItem{Assisted in the successful migration of Japanese entity accounts, ensuring compliance with international accounting standards and regulatory requirements}
+        \resumeItem{Maintained precise and reliable financial records for Japanese entities, leveraging advanced accounting software to ensure accuracy and consistency}
+        \resumeItem{Collaborated with internal stakeholders to efficiently execute financial transactions using the Salesforce platform, improving transaction processing time and accuracy}
+        \resumeItem{Developed and implemented interim solutions to reduce miscommunications, significantly enhancing team efficiency and workflow productivity}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Finance Assistant}{Aug 2019 -- Dec 2021}
+      {Singapore Armed Forces}{Singapore, SG}
+      \resumeItemListStart
+        \resumeItem{Managed unit financial accounts using a central government procurement system, providing expert advice on operational and welfare purchases to optimize resource allocation}
+        \resumeItem{Ensured compliance with procurement policies and directives for HQ sub-units through effective collaboration with finance stakeholders, enhancing adherence to regulations}
+        \resumeItem{Conducted bi-annual internal audits, including Risk Internal Control Evaluations, and prepared comprehensive reports with findings and analyses for submission to the Unit Chief}
+        \resumeItem{Made strategic recommendations for improving finance governance at the unit level and implemented accepted measures to enhance system discipline and operational efficiency}
+        \resumeItem{Co-managed COVID-19 Taskforce finances with finance clerks and officers, ensuring accurate and timely processing of all financial transactions during a critical period}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Wealth Management Intern}{Sep 2018 -- May 2019}
+      {DBS Bank}{Singapore, SG}
+      \resumeItemListStart
+        \resumeItem{Conducted comprehensive reviews of documents under the Accredited Investor regime, ensuring full compliance with regulatory requirements and internal policies}
+        \resumeItem{Collaborated with the Front Office to efficiently execute service requests from Private Banking clients, consistently delivering exceptional customer service}
+        \resumeItem{Maintained precise and up-to-date transaction records for Private Banking clients, ensuring compliance and reliability of financial documentation}
+        \resumeItem{Assisted the Team Lead in collecting and analyzing data, identifying areas for system enhancement, and proposing actionable solutions to improve process efficiency and effectiveness.}
+      \resumeItemListEnd
+      \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+      {\textbf{Personal Website} $|$ \emph{HTML/CSS, JavaScript}}{May 2024 -- Jun 2024}
+      \resumeItemListStart
+        \resumeItem{Designed and developed a personal website using HTML, CSS, and JavaScript, showcasing strong front-end development skills}
+        \resumeItem{Deployed the website to a GitHub repository, demonstrating proficiency in version control and collaborative coding practices}
+        \resumeItem{Hosted the website under a personal domain using Cloudflare, ensuring reliable and secure access with optimized performance}
+        \resumeItem{Implemented responsive design principles to ensure the website is user-friendly across various devices and screen sizes}
+        \resumeItem{Utilized Cloudflare services for enhanced security, performance optimization, and efficient content delivery, improving user experience and site reliability}
+      \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{COVID-19 Safe-Entry Clone System} $|$ \emph{HTML/CSS, JavaScript, SQL}}{Sep 2020}
+          \resumeItemListStart
+            \resumeItem{Developed a Safe Entry clone system to log visitor entries at various locations during the COVID-19 pandemic, facilitating effective contact tracing}
+            \resumeItem{Utilized front-end technologies like HTML, CSS, and JavaScript to create a user-friendly interface for seamless visitor check-in}
+            \resumeItem{Integrated a MySQL database to store visitor logs securely and ensure quick retrieval for health authorities}
+            \resumeItem{Designed the system to comply with data privacy regulations, ensuring sensitive information is handled responsibly}
+            \resumeItem{Enhanced the system with real-time reporting features to assist health authorities in tracking and isolating potential COVID-19 clusters efficiently}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Digitalization by Frank, OCBC} $|$ \emph{Microsoft Suite, Adobe XD}}{Apr 2018 -- Jun 2018}
+          \resumeItemListStart
+            \resumeItem{Collaborated with a team of four to propose and prototype innovative digitalization strategies aimed at enhancing OCBC Bank's appeal to younger customers}
+            \resumeItem{Conducted market research to identify the digital banking needs and preferences of the youth demographic, informing the development of targeted solutions}
+            \resumeItem{Designed user-friendly mobile app features and an intuitive interface to improve user engagement and streamline banking experiences for young customers}
+            \resumeItem{Developed interactive prototypes using Adobe XD, demonstrating proposed features and enhancements to OCBC stakeholders}
+            \resumeItem{Presented project findings and prototypes to OCBC executives, providing actionable insights and recommendations for future digital banking initiatives}
+            \resumeItem{Received positive feedback from OCBC stakeholders, highlighting the potential impact of the proposed digitalization strategies on customer satisfaction and retention}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, SQL, JavaScript, HTML/CSS, R, LaTeX} \\
+     % \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
+     \textbf{Developer Tools}{: Git, VS Code, Visual Studio, PyCharm} \\
+     % \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
