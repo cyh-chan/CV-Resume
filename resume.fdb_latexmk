@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1716328632.84864 "/Users/chadwick/Desktop/Resume in LaTEX/resume.tex" "resume.pdf" "resume" 1716328633.69168 0
+["pdflatex"] 1716911375.27374 "/Users/chadwick/Desktop/Resume in LaTEX/resume.tex" "resume.pdf" "resume" 1716911376.01599 0
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi10.tfm" 1705223232.69377 1528 abec98dbc43e172678c11b3b9031252a ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi6.tfm" 1705223232.69432 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi8.tfm" 1705223232.69477 1520 eccf95517727cb11801f4f1aee3a21b4 ""
@@ -61,7 +61,7 @@
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/verbatim.sty" 1705223240.4847 7500 db31c3d04f8bc9010e47a5efbbace9ff ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty" 1705223260.89078 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyval/xkeyval.sty" 1705223261.02634 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "/Users/chadwick/Desktop/Resume in LaTEX/resume.tex" 1716328632.21086 10700 2ce036340306ee8fede420a2c5554e64 ""
+  "/Users/chadwick/Desktop/Resume in LaTEX/resume.tex" 1716911374.29749 10699 cfad239d1f5ca48bb7b8edc4d8bc0683 ""
   "/Users/chadwick/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1716273630.21866 1128310 8bbbe3519257701c68e29e21b0921d5e ""
   "/Users/chadwick/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1707233985.09111 24213540 a11611cd44cbb9376b0a25f33ec1c3e0 ""
   "/Users/chadwick/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1716236736.82467 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -117,9 +117,9 @@
   "/Users/chadwick/Library/Application Support/MiKTeX/texmfs/install/tex/latex/roboto/OT1Roboto-LF.fd" 1716272945.79299 11834 36196ae2d1e4c207ab90cf00e5daf1d6 ""
   "/Users/chadwick/Library/Application Support/MiKTeX/texmfs/install/tex/latex/roboto/roboto.sty" 1716272945.79476 14933 e21845ed1768884137a412dc322ec384 ""
   "/Users/chadwick/Library/Application Support/MiKTeX/texmfs/install/tex/latex/titlesec/titlesec.sty" 1716235879.4057 48766 0b93839be28e9744a24c45075c75b2e2 ""
-  "resume.aux" 1716328633.51643 673 23668ce6857a2bc05e96915dc39de734 "pdflatex"
-  "resume.out" 1716328633.51708 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
-  "resume.tex" 1716328632.21086 10700 2ce036340306ee8fede420a2c5554e64 ""
+  "resume.aux" 1716911375.86973 673 23668ce6857a2bc05e96915dc39de734 "pdflatex"
+  "resume.out" 1716911375.87037 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
+  "resume.tex" 1716911374.29749 10699 cfad239d1f5ca48bb7b8edc4d8bc0683 ""
   (generated)
   "resume.aux"
   "resume.log"
