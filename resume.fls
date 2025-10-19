@@ -205,7 +205,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/google/roboto/Roboto-Italic-lf-ot1.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/google/roboto/Roboto-Italic-lf-ot1.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/google/roboto/Roboto-Regular-lf-ot1.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/google/roboto/Roboto-Bold-lf-ot1.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/google/roboto/Roboto-Bold-lf-sc-ot1.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/google/roboto/Roboto-Bold-lf-sc-ot1--base.tfm
 INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -217,6 +216,7 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/google/roboto/Roboto-Regular-lf-sc-ot1.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/google/roboto/Roboto-Regular-lf-sc-ot1--base.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/roboto/rbto_h6xohf.enc
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/google/roboto/Roboto-Bold-lf-ot1.tfm
 INPUT resume.aux
 INPUT ./resume.out
 INPUT ./resume.out
