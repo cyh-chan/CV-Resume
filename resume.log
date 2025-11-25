@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.17)  10 OCT 2025 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.17)  26 NOV 2025 06:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -381,6 +381,10 @@ LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
 (Font)              `OT1/Roboto-LF/regular/n' on input line 142.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
 (Font)              scaled to size 6.0pt on input line 142.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
+(Font)              `OT1/Roboto-LF/bold/n' on input line 199.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 10.0pt on input line 199.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -390,11 +394,6 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/roboto/rbto_5xgh2b.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/roboto/rbto_schjax.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/roboto/rbto_h6xohf.enc}]
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
-(Font)              `OT1/Roboto-LF/bold/n' on input line 206.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 206.
-
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -411,13 +410,13 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  14797 strings out of 474116
  257195 string characters out of 5743681
- 1957187 words of memory out of 5000000
+ 1954187 words of memory out of 5000000
  36963 multiletter control sequences out of 15000+600000
  575820 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,342b,736s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,342b,726s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on resume.pdf (2 pages, 141036 bytes).
+Output written on resume.pdf (2 pages, 140136 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  68 compressed objects within 1 object stream

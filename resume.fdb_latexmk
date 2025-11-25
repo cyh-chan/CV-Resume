@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1760092912.15199 "/Users/maze/Desktop/Github/resume/resume.tex" "resume.pdf" "resume" 1760092912.75462 0
-  "/Users/maze/Desktop/Github/resume/resume.tex" 1760092912.03759 14963 9000b81c0d8955659d8b45087bdcdab9 ""
+["pdflatex"] 1764109653.22576 "/Users/maze/Desktop/Github/resume/resume.tex" "resume.pdf" "resume" 1764109653.81255 0
+  "/Users/maze/Desktop/Github/resume/resume.tex" 1764109653.11357 13164 a70d1847f9f1da03232320e16646a382 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1622837620 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
@@ -119,9 +119,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731784187.0144 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731784182 8221445 b5c8a160ac72b53d999e1816f8a0ec37 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "resume.aux" 1760092912.68777 667 c1b8ce5040faea5a16808baf409208e9 "pdflatex"
-  "resume.out" 1760092912.68847 357 9c77116543e0b4f799809746106028b0 "pdflatex"
-  "resume.tex" 1760092912.03759 14963 9000b81c0d8955659d8b45087bdcdab9 ""
+  "resume.aux" 1764109653.74644 667 c1b8ce5040faea5a16808baf409208e9 "pdflatex"
+  "resume.out" 1764109653.74717 357 9c77116543e0b4f799809746106028b0 "pdflatex"
+  "resume.tex" 1764109653.11357 13164 a70d1847f9f1da03232320e16646a382 ""
   (generated)
   "resume.aux"
   "resume.log"
