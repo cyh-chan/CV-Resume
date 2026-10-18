@@ -1,0 +1,308 @@
+%-------------------------
+% Resume in Latex
+% Author : CHAN YH
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage[sfdefault]{roboto}
+\usepackage{raleway}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% \newcommand{\resumeProjectHeading}[2]{
+%     \item
+%     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+%     \\
+%     \end{tabular*}\vspace{-7pt}
+% }
+
+\newcommand{\resumeProjectHeading}[1]{
+      \item \small#1 \vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    {\fontfamily{Raleway-TLF}\selectfont \huge \textbf{CHAN YI HENG}} \\ \vspace{1pt}
+    % \rmfamily \textbf{\Huge \scshape Chan Yi Heng} \\ \vspace{1pt}
+    \small {\faPhoneSquare} +65 8862 0913 $|$
+    \href{mailto:x@x.com}{{\faEnvelope} \underline{c@chanyh.com}} $|$ 
+    \href {https://chanyh.com}{{\faGlobeAsia} \underline{chanyh.com}} $|$
+    \href{https://github.com/cyh-chan}{{\faGithub} \underline{cyh-chan}} $|$
+    \href{https://www.linkedin.com/in/cyh-chan/}{{\faLinkedin} \underline{cyh-chan}} $|$
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National University of Singapore}{Singapore, SG}
+      {Master of Science in Statistics}{Aug 2026 -- Expected 2027}
+    \resumeSubheading
+      {Singapore University of Social Sciences}{Singapore, SG}
+      {Bachelor of Science (Honours) in Mathematics}{Jan 2022 -- Dec 2025}
+    \resumeSubheading
+      {Singapore Polytechnic}{Singapore, SG}
+      {Diploma in Banking \& Finance}{Apr 2016 -- Mar 2019}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Research Assistant}{Oct 2025 -- Present}
+{Singapore University of Social Sciences, University Research Office}{Singapore, SG}
+\resumeItemListStart
+    \resumeItem{Conducted methodological research at the intersection of statistical inference, causal learning, and computational statistics, with applications in the social and behavioral sciences.}
+    \resumeItem{Developed statistical modeling frameworks incorporating heterogeneous treatment effects, robust estimation, and complex dependence structures.}
+    \resumeItem{Investigated statistical learning and stochastic modeling methodologies, emphasizing non-stationarity, model specification, and inferential robustness.}
+    \resumeItem{Designed reproducible computational workflows for statistical estimation, numerical experimentation, and empirical validation.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Teaching Assistant}{Jan 2026 -- Present}
+{Singapore University of Social Sciences}{Singapore, SG}
+\resumeItemListStart
+    \resumeItem{Facilitated undergraduate instruction in probability theory, statistical inference, asymptotic theory, and classical linear regression.}
+    \resumeItem{Guided mathematical derivations, statistical problem-solving, and regression diagnostics, emphasizing theoretical foundations and model assumptions.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Research Intern}{Nov 2024 -- Aug 2025}
+{A*STAR, Advanced Remanufacturing and Technology Centre}{Singapore, SG}
+\resumeItemListStart
+    \resumeItem{Developed an end-to-end non-parametric learning framework for inventory optimization under stochastic demand, uncertain lead times, and non-stationary operating conditions.}
+    \resumeItem{Integrated predictive representation learning with decision optimization, investigating alternatives to conventional predict-then-optimize formulations.}
+    \resumeItem{Implemented explainable AI methodologies and conducted systematic benchmarking to evaluate decision quality, model robustness, and sensitivity to distributional shift.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Volunteer R\&D Engineer}{Nov 2023 -- Present}
+{Zaunkoenig GmbH}{Remote, International}
+\resumeItemListStart
+    \resumeItem{Collaborated with an international engineering team across Germany, the UK, the USA, and Canada on technical prototyping, product development, and design optimization.}
+    \resumeItem{Contributed to cable engineering and mechanical component optimization, balancing mass reduction, structural integrity, and functional performance.}
+    \resumeItem{Coordinated regional technical operations across Southeast Asia, integrating engineering assessments and user feedback into iterative product refinements.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Finance Operations Analyst}{Sep 2021 -- Dec 2021}
+{Indeed}{Singapore, SG}
+\resumeItemListStart
+    \resumeItem{Performed financial data validation, reconciliation, and quality assurance to maintain data integrity across international operations.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Finance Specialist}{Aug 2019 -- Aug 2021}
+{Singapore Armed Forces}{Singapore, SG}
+\resumeItemListStart
+    \resumeItem{Oversaw financial operations, budgetary controls, and compliance assessments within government regulatory frameworks.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Wealth Management Intern}{Sep 2018 -- May 2019}
+{DBS Bank}{Singapore, SG}
+\resumeItemListStart
+    \resumeItem{Conducted operational analyses and systematic documentation reviews to support process efficiency and regulatory compliance.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+%-----------Research & PROJECTS-----------
+\section{Research}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Regime-Aware Statistical Learning for Financial Markets} $|$ \emph{Dr. Fan Zengyan}}
+\resumeItemListStart
+    \resumeItem{Developing a regime-aware statistical learning framework to characterize heterogeneous asset-price responses to exogenous macroeconomic shocks under structural breaks and time-varying dependence.}
+    \resumeItem{Integrating high-frequency financial observations with macroeconomic state variables to model non-linear interactions, evolving dependence structures, and regime-dependent transmission mechanisms.}
+    \resumeItem{Investigating adaptive feature representations and statistical learning methodologies to characterize cross-asset response heterogeneity and improve inference under non-stationary market conditions.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Stratified Non-Attendance Modeling in Clinical Datasets} $|$ \emph{Dr. Fan Zengyan}}
+\resumeItemListStart
+    \resumeItem{Developing a unified statistical framework integrating survival analysis, generalized linear models, and robust inferential procedures to characterize heterogeneous non-attendance mechanisms.}
+    \resumeItem{Incorporating heteroscedasticity-consistent covariance estimation, cluster-robust inference, and non-parametric variance decomposition to accommodate correlated observations and heterogeneous variability.}
+    \resumeItem{Investigating demographic, behavioral, and temporal determinants of non-attendance through stratified estimation and model diagnostics, emphasizing inferential robustness across heterogeneous subpopulations.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Causal Machine Learning for Heterogeneous Treatment Effects} $|$ \emph{Dr. Fan Zengyan}}
+\resumeItemListStart
+    \resumeItem{Developed a unified causal learning framework integrating Double Machine Learning and Causal Forests to estimate conditional average treatment effects in high-dimensional observational settings.}
+    \resumeItem{Implemented cross-validated propensity score estimation, overlap diagnostics, and deterministic support trimming to improve estimation stability under limited covariate overlap.}
+    \resumeItem{Applied unsupervised clustering to individualized treatment effect estimates to identify latent responder profiles and characterize heterogeneity in treatment responses.}
+    \resumeItem{Constructed interpretable treatment assignment strategies using Optimal Policy Trees, linking heterogeneous effect estimation with individualized policy optimization.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Multivariate Time Series Forecasting for Equity Price Prediction} $|$ \emph{Dr. Zhou Tianyi}}
+\resumeItemListStart
+    \resumeItem{Conducted a systematic empirical benchmark of classical statistical models and neural forecasting architectures under non-stationary, high-noise financial conditions.}
+    \resumeItem{Evaluated ARIMA, ARIMAX, LSTM, N-HiTS, PatchTST, and StemGNN using walk-forward validation across multiple forecasting horizons to assess out-of-sample predictive performance.}
+    \resumeItem{Investigated horizon-dependent model performance and the contribution of exogenous information through feature attribution analysis and comparative model evaluation.}
+    \resumeItem{Established that parsimonious statistical models outperform more complex architectures at shorter horizons, while neural models exhibit stronger predictive performance over longer horizons.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Data-Driven Framework for Enhancing Supply Chain Resilience} $|$ \emph{Dr. Liu Ning}}
+\resumeItemListStart
+    \resumeItem{Developed an end-to-end non-parametric learning framework for stochastic inventory control, integrating predictive representation learning with direct replenishment policy optimization.}
+    \resumeItem{Formulated a decision-focused learning approach based on empirical risk minimization, circumventing explicit demand distribution modeling and conventional Predict-Then-Optimize pipelines.}
+    \resumeItem{Incorporated feature attribution methodologies to investigate learned decision policies and quantify the influence of operational variables on replenishment decisions.}
+    \resumeItem{Demonstrated improved inventory performance and robustness to distributional shift through systematic evaluation against conventional forecasting-based optimization baselines.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+      % {\textbf{Personal Website} $|$ \emph{HTML/CSS, JavaScript}}{May 2024 -- Jun 2024}
+      % \resumeItemListStart
+      %   \resumeItem{Designed and developed a personal website using HTML, CSS, and JavaScript, showcasing strong front-end development skills}
+      %   \resumeItem{Deployed the website to a GitHub repository, demonstrating proficiency in version control and collaborative coding practices}
+      %   \resumeItem{Hosted the website under a personal domain using Cloudflare, ensuring reliable and secure access with optimized performance}
+      %   \resumeItem{Implemented responsive design principles to ensure the website is user-friendly across various devices and screen sizes}
+      %   \resumeItem{Utilized Cloudflare services for enhanced security, performance optimization, and efficient content delivery, improving user experience and site reliability}
+      % \resumeItemListEnd
+      % \resumeProjectHeading
+      %     {\textbf{COVID-19 Safe-Entry Clone System} $|$ \emph{HTML/CSS, JavaScript, SQL}}{Sep 2020}
+      %     \resumeItemListStart
+      %       \resumeItem{Developed a Safe Entry clone system to log visitor entries at various locations during the COVID-19 pandemic, facilitating effective contact tracing}
+      %       \resumeItem{Utilized front-end technologies like HTML, CSS, and JavaScript to create a user-friendly interface for seamless visitor check-in}
+      %       \resumeItem{Integrated a MySQL database to store visitor logs securely and ensure quick retrieval for health authorities}
+      %       \resumeItem{Designed the system to comply with data privacy regulations, ensuring sensitive information is handled responsibly}
+      %       \resumeItem{Enhanced the system with real-time reporting features to assist health authorities in tracking and isolating potential COVID-19 clusters efficiently}
+      %     \resumeItemListEnd
+      % \resumeProjectHeading
+      %     {\textbf{Digitalization by Frank, OCBC} $|$ \emph{Microsoft Suite, Adobe XD}}{Apr 2018 -- Jun 2018}
+      %     \resumeItemListStart
+      %       \resumeItem{Collaborated with a team of four to propose and prototype innovative digitalization strategies aimed at enhancing OCBC Bank's appeal to younger customers}
+      %       \resumeItem{Conducted market research to identify the digital banking needs and preferences of the youth demographic, informing the development of targeted solutions}
+      %       \resumeItem{Designed user-friendly mobile app features and an intuitive interface to improve user engagement and streamline banking experiences for young customers}
+      %       \resumeItem{Developed interactive prototypes using Adobe XD, demonstrating proposed features and enhancements to OCBC stakeholders}
+      %       \resumeItem{Presented project findings and prototypes to OCBC executives, providing actionable insights and recommendations for future digital banking initiatives}
+      %       \resumeItem{Received positive feedback from OCBC stakeholders, highlighting the potential impact of the proposed digitalization strategies on customer satisfaction and retention}
+      %     \resumeItemListEnd
+
+
+%
+%-----------Competency-----------
+\section{Compentencies}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \textbf{Programming \& Scripting}{: Python, R, SQL, LaTeX} \\
+        \textbf{Software \& Tools}{: Git, Jupyter, VS Code, Visual Studio} \\
+        \textbf{Languages}{: English, Mandarin}
+    }}
+\end{itemize}
+
+
+
+
+%-------------------------------------------
+\end{document}
